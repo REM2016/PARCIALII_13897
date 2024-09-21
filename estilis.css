@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.whoami,
+.mis-retos,
+.pasatiempos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media(min-width: 768px) {
+
+    .whoami,
+    .mis-retos,
+    .pasatiempos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
